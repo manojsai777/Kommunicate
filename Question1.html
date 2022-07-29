@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My HTML Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #wrapper {
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #box1 {
+   border: 1px solid green;
+   height: 150px;
+   width: 100%;
+   border-radius: 0 600px 50px 0px;
+   z-index:0;
+   margin-right: -50px;
+   text-align: center;
+   
+ }
+ 
+ 
+ 
+ #box2 {
+   border: 1px solid #CF9FFF;
+   height: 75px;
+   width: 60%;
+   border-radius: 600px 0 0 50px;
+   background: #CF9FFF;
+   z-index: -1;
+   margin-left: -40px;
+   
+ }
+ #textBox {
+   margin-top: 25px;
+ }
+ 
+ .btn {
+  border-radius: 20px; 
+  background: #2DD35C;
+  border: 0px;
+  color: white;
+  height: 36px;
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+ }
+ 
+ .btn1 {
+     border-radius: 20px; 
+  background: white;
+  border: 0px;
+  color:  #5553B7;
+  border: 1px solid #5553B7;
+  height: 36px;
+   font-size: 12px;
+   padding: 0 10px 0 10px;
+ }
+ 
+ #secondText {
+    color:  #5553B7;
+ }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="box1">
+            <div id="textBox">
+                <div>
+                    Reay to Automate your
+                </div>
+                <div id="secondText">
+                    E-Commerce Store?
+                </div>
+                <button class="btn">
+                    Try for free
+                </button>
+                <button class="btn1">
+                    Book a demo
+                </button>
+            </div>
+        </div>
+        <div id="box2"></div>
+    </div>
+</body>
+
+</html>
